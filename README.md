@@ -105,6 +105,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 [![ERROR-X-PREDATOR](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) | [![JOSEPH XEON](https://github.com/DGXeon.png?size=200)](https://github.com/DGXeon) |
 ----|----|
-[Alinshan](https://github.com/Alinshan) | [DGXeon](https://github.com/DGXeon) |
+[ERROR-X-PREDATOR](https://github.com/Alinshan) | [JOSEPH XEON](https://github.com/DGXeon) |
 Re-Developer, Base, Bug Fixes, Modules| Developer, Base, Bug Fixes, Modules |
   </div>

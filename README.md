@@ -1,4 +1,35 @@
+----------
+<div align="center">
+  
+## ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+JARVIS+WA+BOT+REPO)
 
+</div>
+  <div align="center">
+  
+<div align="center">
+  <p align="center">
+<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="250" height="250"/>
+</p>
+  <p align="center">
+<a href="https://github.com/Alinshan"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp">
+</p>
+  <p align="center"> 
+  <a href="https://wa.me/918592068706"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+</div>
+<p align="center">
+ᴘʀᴏᴊᴇᴄᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href="https://github.com/Alinshan">ᴀʟɪɴsʜᴀɴ</a>
+    <br>
+       | © |
+        Reserved |
+    <br> 
+</p>
+</div>
+
+----------
+
+
+----------
 
 # Setup For Deployment 👇
 
@@ -71,3 +102,13 @@ npm start
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+
+
+<div align="center">
+  
+[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) | [![DGXEON](https://github.com/DGXeon.png?size=200)](https://github.com/DGXeon)
+----|  
+[ALINSHAN](https://github.com/Alinshan)  | [JOSEPHXEON](https://github.com/DGXeon)
+</div>
+    
+---------- 

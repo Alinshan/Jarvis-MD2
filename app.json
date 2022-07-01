@@ -1,8 +1,8 @@
 {
-  "name": "CheemsBot-MD",
+  "name": "Jarvis-Bot-MD",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/yawa107/CheemsBot-MD3",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": "https://telegra.ph/file/83dda0f2e9772c01076b1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {

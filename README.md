@@ -103,9 +103,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 <div align="center">
   
-[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) | [![DGXEON](https://github.com/DGXeon.png?size=200)](https://github.com/DGXeon)
-----|  
-[ALINSHAN](https://github.com/Alinshan)  | [JOSEPHXEON](https://github.com/DGXeon)
+[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) | [![DGXEON](https://github.com/DGXeon.png?size=200)](https://github.com/DGXeon) 
+----|----| 
+[ALINSHAN](https://github.com/Alinshan)  | [JOSEPHXEON](https://github.com/DGXeon) |
 </div>
     
 ---------- 

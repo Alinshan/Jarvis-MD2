@@ -100,7 +100,7 @@ npm start
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
-
+## Developers
 <div align="center">
 
 [![ERROR-X-PREDATOR](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) | [![JOSEPH XEON](https://github.com/DGXeon.png?size=200)](https://github.com/DGXeon) |

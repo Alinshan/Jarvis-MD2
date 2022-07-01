@@ -17,9 +17,6 @@
   <a href="https://wa.me/918592068706"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 </div>
-<p align="center">
-ᴘʀᴏᴊᴇᴄᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href="https://github.com/Alinshan">ᴀʟɪɴsʜᴀɴ</a>
-    <br>
        | © |
         Reserved |
     <br> 

@@ -262,6 +262,7 @@ const isAutoSticker = m.isGroup ? autosticker.includes(from) : false
 const isSewa = _sewa.checkSewaGroup(from, sewa)
 const Autoreply = m.isGroup ? autorep.includes(from) : true
 autoreadsw = true
+	
 // Quoted
 const content = JSON.stringify(m.message)
 const q = args.join(' ')
@@ -7124,11 +7125,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
-										{
-										"title": "Rpg Menu 🏞️",
-										"description": "Displays The List Of Rpg Features",
-										"rowId": `${prefix}rpgmenu`
-										},
+						
 										{
 										"title": "Maker Menu 🌈",
 										"description": "Displays The List Of Logo Making Features",
@@ -7158,11 +7155,6 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"title": "Tool Menu ⚙️",
 										"description": "Displays The List Of Tool Features",
 										"rowId": `${prefix}toolmenu`
-									},
-										{
-										"title": "Game Menu 🎮",
-										"description": "Displays The List Of Game Features",
-										"rowId": `${prefix}indomenu`
 									},
 										{
 											"title": "Convert Menu ⚒️",
@@ -7608,14 +7600,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}sound159
 ╠ ${prefix}sound160
 ╠ ${prefix}sound161
-╠══════✪「 GAME 」
-╠ ${prefix}truth
-╠ ${prefix}dare
-╠ ${prefix}tictactoe
-╠ ${prefix}delttt
-╠ ${prefix}guess [option]
-╠ ${prefix}math [mode]
-╠ ${prefix}suitpvp [tag]
 ╠══✪「 ANONYMOUS CHAT 」
 ╠${prefix}anonymous
 ╠${prefix}start
@@ -7648,9 +7632,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠ ${prefix}quoted
 ╠ ${prefix}listpc
 ╠ ${prefix}listgc
-╠ ${prefix}donate
 ╠ ${prefix}request
-╠ ${prefix}report [bug]
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'ownermenu':
@@ -7727,24 +7709,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 GROUP 」
 ╠${prefix}checkrent
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
-case 'rpgmenu':
-	   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'Rpg Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 RPG 」	
-╠${prefix}hunt
-╠${prefix}mine
-╠${prefix}fish
-╠${prefix}heal
-╠${prefix}blood
-╠${prefix}stab
-╠${prefix}buy
-╠${prefix}sell
-╠${prefix}profile
-╠${prefix}inventory
-╠${prefix}leaderboard
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
-break
+
 case 'makermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
@@ -7967,9 +7932,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 STICKER 」
 ╠ ${prefix}gura
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
-		
-
-		
+				
 case 'soundmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
@@ -8139,20 +8102,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 Sound 」
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 		
-case 'gamemenu':
-	   if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-var unicorn = await getBuffer(picak+'Game Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 GAME 」	
-╠ ${prefix}truth
-╠ ${prefix}dare
-╠ ${prefix}tictactoe
-╠ ${prefix}delttt
-╠ ${prefix}guess [option]
-╠ ${prefix}math [mode]
-╠ ${prefix}suitpvp [tag]
-╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
-break
 case 'anonymousmenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
@@ -8208,9 +8157,7 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OTHER 」
 ╠ ${prefix}quoted
 ╠ ${prefix}listpc
 ╠ ${prefix}listgc
-╠ ${prefix}donate
 ╠ ${prefix}request
-╠ ${prefix}report [bug]
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'tqtt': 

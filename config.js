@@ -38,7 +38,6 @@ global.location = "India, Kerala, Kozhikode" //ur location
 
 //bot bombdy
 global.botname = "Jarvis" //ur bot name
-global.websitex = "https://as-mods-404.blogspot.com" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
 global.packname = "©Jarvis Wa Bot\n\n\n\n\n\n\n"
 global.author = "Dont Steal"
